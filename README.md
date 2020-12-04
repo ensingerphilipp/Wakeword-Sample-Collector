@@ -12,5 +12,6 @@ Please follow the directions provided by Pete Warden located here (https://githu
 
 ## Credits
 Thanks to Pete Warden and Google for the Open Speech Recordingn application (https://github.com/petewarden/open-speech-recording)
+
 Pete also credited:
 'Thanks to the Mozilla team for the Web Dictaphone sample application that I used as a starting point, Sole for the oscilloscope, and the Flask team for a lovely Python microframework!'
