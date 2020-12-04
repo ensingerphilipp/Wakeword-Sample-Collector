@@ -12,7 +12,7 @@ For use in collecting speech recordings from friends and family to detect the ke
 Please follow the directions provided by Pete Warden located here (https://github.com/petewarden/open-speech-recording/edit/master/README.md)
 
 ## Credits
-Thanks to Pete Warden and Google for the Open Speech Recordingn application (https://github.com/petewarden/open-speech-recording)
+Thanks to Pete Warden for the Open Speech Recording application (https://github.com/petewarden/open-speech-recording)
 
 Pete also credited:
 'Thanks to the Mozilla team for the Web Dictaphone sample application that I used as a starting point, Sole for the oscilloscope, and the Flask team for a lovely Python microframework!'
