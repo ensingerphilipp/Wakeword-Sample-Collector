@@ -1,2 +1,16 @@
-# web-voice-record
-small web app to collect speech sample
+**web-voice-record** is small web app to collect speech samples and upload them to Google cloud storage.  Thank you to Pete Warden, pete@petewarden.com, for the Open Speech Recording application (https://github.com/petewarden/open-speech-recording) that I used as a starting point.
+
+This is a small Flask app that runs on Google App Engine. It serves up a client-side Javascript app that propts for words to be uttered, recorded, and posted to a Google cloud storage bucket.  This app uses the microphone and appears to require HTML5 support on the client device.  
+
+To be used in collecting speech recordings from friends and family members to detect the keyphrase 'help*', I modified Pete's original work in following ways:
+1. Modified text/message in welcome.html (original: https://github.com/petewarden/open-speech-recording/blob/master/templates/welcome.html)
+2. Modified text/message in thanks.html (original: https://github.com/petewarden/open-speech-recording/blob/master/templates/thanks.html)
+3. Modified var wantedWords and var fillerWords in app.js (original: https://github.com/petewarden/open-speech-recording/blob/master/static/scripts/app.js)
+
+## Running
+Please follow the directions provided by Pete Warden located here (https://github.com/petewarden/open-speech-recording/edit/master/README.md)
+
+## Credits
+Thanks to Pete Warden and Google for the Open Speech Recordingn application (https://github.com/petewarden/open-speech-recording)
+Pete also credited:
+'Thanks to the Mozilla team for the Web Dictaphone sample application that I used as a starting point, Sole for the oscilloscope, and the Flask team for a lovely Python microframework!'
