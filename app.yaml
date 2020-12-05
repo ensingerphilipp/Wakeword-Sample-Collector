@@ -1,0 +1,17 @@
+runtime: python37
+
+# [START handlers]
+handlers:
+- url: /static
+  static_dir: static
+  secure: always
+- url: /.*
+  script: auto
+  secure: always
+# [END handlers]
+
+#[START env]
+env_variables:
+    CLOUD_STORAGE_BUCKET: say-help1
+    SESSION_SECRET_KEY: AIzaSyD0T5TOqN21e5GNtYxtgRAHU_5-AuQkJa0
+#[END env]

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Key Word Recording</title>	
+    <link href="static/styles/app.css" rel="stylesheet" type="text/css">
+  </head>
+  <script type="text/javascript">
+    var csrf_token = "{{ csrf_token() }}";
+  </script>
+  <body>
+
+    <div class="wrapper">
+
+      <header>
+        <h1>Key Word Recording</h1>
+      </header>
+
+      <section class="top-display">
+	<div class="directions">
+	  Press Record to start.
+	  <br/>
+	  Record yourself saying only the word in the box below.
+	  <br/>
+	  Press Stop to stop recording, and when all the requested words are completed you'll be able to upload the recordings.
+	</div>
+	<div class="progress-display">
+	</div>
+	<div class="info-display">
+	</div>
+      </section>
+
+      <section class="main-controls">
+        <canvas class="visualizer"></canvas>
+        <div id="buttons">
+          <button class="record">Record</button>
+          <button class="stop">Stop</button>
+          <button class="upload">Upload</button>
+        </div>
+      </section>
+
+      <section class="sound-clips">
+
+        <!-- This is left here as a helper for testing the style of the clips
+        If you want to edit their appearance without having to record clips,
+        uncomment this and reload the page. Remember to comment it again when done!
+        <article class="clip">
+          <audio controls></audio>
+          <p>Sample clip name</p>
+          <button class="delete">Delete</button>
+        </article>
+        -->
+
+      </section>
+
+    </div>
+
+    <footer>
+	  <p>For questions and comments, please contact hello@carenami.com</p>   <a href="https://github.com/petewarden/open-speech-recording"> Thank you to Pete Warden for the Open Speech Recording application that we are using </a>
+      <a href="/legal">Participant Agreement</a>
+    </footer>
+
+    <script src="static/scripts/app.js"></script>
+
+  </body>
+</html>
