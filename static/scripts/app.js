@@ -179,26 +179,17 @@ function visualize(stream) {
 }
 
 var wantedWords = [
-  'Zero',
-  'One',
-  'Two',
-  'Three',
-  'Four',
-  'Five',
-  'Six',
-  'Seven',
-  'Eight',
-  'Nine',
-  'On',
-  'Off',
-  'Stop',
-  'Go',
-  'Up',
-  'Down',
-  'Left',
-  'Right',
-  'Yes',
-  'No',
+  'Help',
+  'Help Me',
+  'Help Help',
+  'Please Help',
+  'Help Help Help',
+  'Help!',
+  'Help Help!',
+  'Help Me',
+  'I Need Help!',
+  'Help!',
+  'Help, Help, Help',
 ];
 
 var fillerWords = [
