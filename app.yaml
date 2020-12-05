@@ -12,6 +12,6 @@ handlers:
 
 #[START env]
 env_variables:
-    CLOUD_STORAGE_BUCKET: say-help1
-    SESSION_SECRET_KEY: AIzaSyD0T5TOqN21e5GNtYxtgRAHU_5-AuQkJa0
+    CLOUD_STORAGE_BUCKET: <your bucket name>
+    SESSION_SECRET_KEY: <your session key>
 #[END env]
