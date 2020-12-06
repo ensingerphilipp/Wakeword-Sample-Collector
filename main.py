@@ -33,6 +33,10 @@ def welcome():
 @app.route("/legal")
 def legal():
     return render_template("legal.html")
+    
+@app.route("/main")
+def main():
+    return render_template("welcome.html")
 
 @app.route("/start")
 def start():
