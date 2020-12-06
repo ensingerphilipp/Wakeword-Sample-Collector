@@ -180,16 +180,21 @@ function visualize(stream) {
 
 var wantedWords = [
   'Help',
-  'Help Me',
-  'Help Help',
-  'Please Help',
-  'Help Help Help',
-  'Help!',
+  'help, help!',
   'Help Help!',
-  'Help Me',
-  'I Need Help!',
+  'Help! Help! Help!',
   'Help!',
-  'Help, Help, Help',
+  'help!!',
+  'help',
+  'call',
+  'Call',
+  'call my friend',
+  'call my kid',
+  'Call my kids',
+  'call my circle',
+  'Call My Friend',
+  'Call My Kids',
+  'Call My Circle',
 ];
 
 var fillerWords = [
