@@ -2,11 +2,10 @@
 
 This is a small Flask app that runs on Google App Engine. It serves up a client-side Javascript app that prompts for words to be uttered, recorded, and posted to a Google cloud storage bucket.  This app uses the microphone and require HTML5 support on the client device.  
 
-For use in collecting speech recordings from friends and family to detect the keyphrase 'help*', I modified Pete's original work in following ways:
+For use in collecting speech recordings from friends and family to detect the keyphrase 'Friday*', I modified Pete Wardens original work in following ways:
 
-1. Modified text/message in welcome.html (original: https://github.com/petewarden/open-speech-recording/blob/master/templates/welcome.html)
-2. Modified text/message in thanks.html (original: https://github.com/petewarden/open-speech-recording/blob/master/templates/thanks.html)
-3. Modified var wantedWords and var fillerWords in app.js (original: https://github.com/petewarden/open-speech-recording/blob/master/static/scripts/app.js)
+1. Modified text/message in all templates (German) (original: https://github.com/petewarden/open-speech-recording/blob/master/templates)
+2. Modified var wantedWords and var fillerWords in app.js (original: https://github.com/petewarden/open-speech-recording/blob/master/static/scripts/app.js)
 
 ## Running
 Please follow the directions provided by Pete Warden located here (https://github.com/petewarden/open-speech-recording/edit/master/README.md)
