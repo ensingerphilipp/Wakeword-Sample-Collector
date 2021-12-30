@@ -181,9 +181,9 @@ function visualize(stream) {
 var wantedWords = [
   'Friday Friday',
   'Friday',
-  'Friday',
-  'Friday',
-  'Friday',
+  'Friday!',
+  'Friday?',
+  'Friday.',
 ];
 
 var fillerWords = [
@@ -212,10 +212,10 @@ function getRecordedWords() {
 function getAllWantedWords() {
   var wordCounts = {};
   wantedWords.forEach(function(word) {
-    wordCounts[word] += 5;
+    wordCounts[word] = 5;
   });
   fillerWords.forEach(function(word) {
-    wordCounts[word] += 1;
+    wordCounts[word] = 1;
   });
   return wordCounts;
 }
