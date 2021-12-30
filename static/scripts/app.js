@@ -179,35 +179,21 @@ function visualize(stream) {
 }
 
 var wantedWords = [
-  'Help',
-  'help, help!',
-  'Help Help!',
-  'Help! Help! Help!',
-  'Help!',
-  'help!!',
-  'help',
-  'call',
-  'Call',
-  'call my friend',
-  'call my kid',
-  'Call my kids',
-  'call my circle',
-  'Call My Friend',
-  'Call My Kids',
-  'Call My Circle',
+  'Friday Friday',
+  'Friday',
+  'Friday',
+  'Friday',
+  'Friday',
 ];
 
 var fillerWords = [
-  'Dog',
-  'Cat',
-  'Bird',
-  'Tree',
-  'Marvin',
-  'Sheila',
-  'House',
-  'Bed',
+  'Alexa',
+  'Komm',
+  'fertig',
+  'Haus',
+  'Bett',
   'Wow',
-  'Happy',
+  'lustig',
 ];
 
 function getRecordedWords() {
@@ -226,10 +212,10 @@ function getRecordedWords() {
 function getAllWantedWords() {
   var wordCounts = {};
   wantedWords.forEach(function(word) {
-    wordCounts[word] = 5;
+    wordCounts[word] += 5;
   });
   fillerWords.forEach(function(word) {
-    wordCounts[word] = 1;
+    wordCounts[word] += 1;
   });
   return wordCounts;
 }
