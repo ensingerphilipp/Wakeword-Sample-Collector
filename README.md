@@ -6,8 +6,10 @@ Procedure:
 
 1. Agree to use the data and use the microphone.
 2. Press the record button
-3. Record the words displayed in 1-second intervals
-4. Review the words and then upload them via the upload button.
+3. Record the words displayed for ~ 1.5 Seconds before the recording starts
+4. When the button turns RED the recording has started. --> Speak the givven word
+5. When the button turns grey again the recording has stopped 
+6. Review the words and then upload them via the upload button.
 
 ## Installation instructions
 
