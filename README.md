@@ -1,7 +1,7 @@
 
 **Wakeword-Sample-Collector** 
 
-## Using Wakeword-Sample-Collector to train a custom wakeword for Project-Friday
+## Using Wakeword-Sample-Collector to collect sampels for Project-Friday
 
 <p align="center">
   <img src="/resources/Wakeword-Sample-Collector.jpg" width="500" title="Wakeword-Sample-Collector-In-Action">
