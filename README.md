@@ -1,4 +1,4 @@
-## Using web-voice-record to train a custom wakeword for Project-Friday
+## Using Wakeword-Sample-Collector to train a custom wakeword for Project-Friday
 
 ## Overview
 
@@ -57,7 +57,7 @@ Please follow the directions provided by Pete Warden located here (https://githu
 
 ## Credits
 
-**web-voice-record** is small web app to collect speech samples and upload them to Google cloud storage.  
+**Wakeword-Sample-Collector** is small web app to collect speech samples and upload them to Google cloud storage.  
 
 This is a small Flask app that runs on Google App Engine. It serves up a client-side Javascript app that prompts for words to be uttered, recorded, and posted to a Google cloud storage bucket.  This app uses the microphone and require HTML5 support on the client device.  
 
