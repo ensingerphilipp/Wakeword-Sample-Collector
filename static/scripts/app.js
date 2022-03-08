@@ -200,9 +200,7 @@ var wantedWords = [
   'Day'
 ];
 
-var fillerWords = [
-
-];
+var fillerWords = [];
 
 function getRecordedWords() {
   var wordElements = document.querySelectorAll('.clip-label');
