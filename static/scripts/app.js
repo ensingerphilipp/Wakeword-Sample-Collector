@@ -192,15 +192,10 @@ function visualize(stream) {
 
 var wantedWords = [
   'Friday',
-  'Friday_',
   'Friday!',
   'Friday?',
-  'Friday.',
-  'Friday??',
-  'Friday..',
   'Ei',
   'Frei',
-  'Freitag',
   'Hi!',
   'Day'
 ];
