@@ -191,13 +191,10 @@ function visualize(stream) {
 }
 
 var wantedWords = [
-  'Friday',
   'Friday!',
   'Friday?',
-  'Ei',
   'Frei',
   'Hi!',
-  'Day'
 ];
 
 var fillerWords = [];
